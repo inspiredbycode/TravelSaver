@@ -1,7 +1,6 @@
 package travel.save.approaches;
 
 import com.amadeus.Amadeus;
-import com.amadeus.Response;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.FlightAvailability;
 

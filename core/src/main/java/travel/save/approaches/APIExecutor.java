@@ -15,7 +15,7 @@ public class APIExecutor {
 		public static void main(String[] args) {
 			HttpRequest request = HttpRequest.newBuilder()
 					.uri(URI.create("https://test.api.amadeus.com/v2/shopping/flight-offers?departureDate=2025-02-24&returnDate=2025-03-24&adults=1&max=3&originLocationCode=SFO&destinationLocationCode=DEL&nonStop=true"))
-					.header("Authorization", "Bearer jYH4JMHSqpamWoAIVYEjXDEmu1v7")
+					.header("Authorization", "Bearer dQHIyLiYhJFqPA5ge86EH8emag5S")
 					.method("GET", HttpRequest.BodyPublishers.noBody())
 					.build();
 			HttpResponse<String> response = null;
